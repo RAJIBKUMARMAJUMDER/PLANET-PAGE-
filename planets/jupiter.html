@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/index.html">
+        <div class="logo">The Planets</div>
+      </a>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/planets/mercury.html">MERCURY</a></li>
+          <li><a href="/planets/venus.html">VENUS</a></li>
+          <li><a href="/planets/earth.html">EARTH</a></li>
+          <li><a href="/planets/mars.html">MARS</a></li>
+          <li><a href="/planets/jupiter.html">JUPITER</a></li>
+          <li><a href="/planets/saturn.html">SATURN</a></li>
+          <li><a href="/planets/uranus.html">URANUS</a></li>
+          <li><a href="/planets/neptune.html">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="main-content">
+      <div class="image">
+        <img src="/assets/planet-jupiter.svg" alt="Planet Earth" />
+      </div>
+      <div class="description">
+        <h1>JUPITER</h1>
+
+        <p class="text active" id="text1">
+          Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun.
+        </p>
+        <p class="text" id="text2">Before the early 21st century, most scientists proposed one of two scenarios for the formation of Jupiter. If the planet accreted first as a solid body, it would consist of a dense core, a surrounding layer of liquid metallic hydrogen (with some helium) extending outward to about 80% of the radius of the planet.
+
+        </p>
+        <p class="text" id="text3">By mass, Jupiter's atmosphere is approximately 76% hydrogen and 24% helium, though, because helium atoms are more massive than hydrogen molecules, Jupiter's upper atmosphere is about 90% hydrogen and 10% helium by volume.</p>
+        <p class="source">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Jupiter">Wikipedia</a>
+          <i class="fa-solid fa-square-up-right"></i>
+        </p>
+
+        <div class="switchButton">
+          <button id="button1">01 OVERVIEW</button>
+          <button id="button2">02 INTERNAL STRUCTURE</button>
+          <button id="button3">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <p class="infoText">ROTATION TIME</p>
+        <h2>0.414 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">REVOLUTION TIME</p>
+        <h2>4328.9 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">RADIUS</p>
+        <h2>69911 KM</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">AVERAGE TEMP.</p>
+        <h2>-145°C</h2>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
+</html>

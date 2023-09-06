@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/index.html">
+        <div class="logo">The Planets</div>
+      </a>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/planets/mercury.html">MERCURY</a></li>
+          <li><a href="/planets/venus.html">VENUS</a></li>
+          <li><a href="/planets/earth.html">EARTH</a></li>
+          <li><a href="/planets/mars.html">MARS</a></li>
+          <li><a href="/planets/jupiter.html">JUPITER</a></li>
+          <li><a href="/planets/saturn.html">SATURN</a></li>
+          <li><a href="/planets/uranus.html">URANUS</a></li>
+          <li><a href="/planets/neptune.html">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="main-content">
+      <div class="image">
+        <img src="/assets/planet-venus.svg" alt="Planet Earth" />
+      </div>
+      <div class="description">
+        <h1>VENUS</h1>
+
+        <p class="text active" id="text1">
+          Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size that is close to that of its orbital neighbour Earth. Orbiting inferiorly (inside of Earth's orbit), it appears in Earth's sky always close to the Sun, as either a "morning star" or an "evening star".
+        </p>
+        <p class="text" id="text2">
+          Without data from reflection seismology or knowledge of its moment of inertia, little direct information is available about the internal structure and geochemistry of Venus.[121] The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust.
+        </p>
+        <p class="text" id="text3">
+          Venus has a dense atmosphere composed of 96.5% carbon dioxide, 3.5% nitrogen—both exist as supercritical fluids at the planet's surface with a 6.5% density of water—[32] and traces of other gases including sulfur dioxide.[33] The mass of its atmosphere is 92 times that of Earth's, whereas the pressure at its surface is about 93 times that at Earth's—a pressure equivalent to that at a depth of nearly 1 km (5⁄8 mi) under Earth's oceans.
+        </p>
+        <p class="source">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Venus">Wikipedia</a>
+          <i class="fa-solid fa-square-up-right"></i>
+        </p>
+
+        <div class="switchButton">
+          <button id="button1">01 OVERVIEW</button>
+          <button id="button2">02 INTERNAL STRUCTURE</button>
+          <button id="button3">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <p class="infoText">ROTATION TIME</p>
+        <h2>243 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">REVOLUTION TIME</p>
+        <h2>224.7 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">RADIUS</p>
+        <h2>6054 KM</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">AVERAGE TEMP.</p>
+        <h2>475°C</h2>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
+</html>

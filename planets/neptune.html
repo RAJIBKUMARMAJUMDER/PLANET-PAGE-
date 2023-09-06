@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/index.html">
+        <div class="logo">The Planets</div>
+      </a>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/planets/mercury.html">MERCURY</a></li>
+          <li><a href="/planets/venus.html">VENUS</a></li>
+          <li><a href="/planets/earth.html">EARTH</a></li>
+          <li><a href="/planets/mars.html">MARS</a></li>
+          <li><a href="/planets/jupiter.html">JUPITER</a></li>
+          <li><a href="/planets/saturn.html">SATURN</a></li>
+          <li><a href="/planets/uranus.html">URANUS</a></li>
+          <li><a href="/planets/neptune.html">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="main-content">
+      <div class="image">
+        <img src="/assets/planet-neptune.svg" alt="Planet Earth" />
+      </div>
+      <div class="description">
+        <h1>NEPTUNE</h1>
+
+        <p class="text active" id="text1">
+          Neptune is the eighth planet from the Sun and the farthest IAU-recognized planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet.
+        </p>
+        <p class="text" id="text2">Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5 to 10% of its mass and extends perhaps 10 to 20% of the way towards the core. Pressure in the atmosphere reaches about 10 GPa, or about 100,000 times that of Earth's atmosphere. Increasing concentrations of methane, ammonia and water are found in the lower regions of the atmosphere.</p>
+        <p class="text" id="text3">This is text 3.
+          At high altitudes, Neptune's atmosphere is 80% hydrogen and 19% helium.[28] A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum. As with Uranus, this absorption of red light by the atmospheric methane is part of what gives Neptune its blue hue,[81] although Neptune's blue differs from Uranus's milder light blue.
+        </p>
+        <p class="source">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Neptune">Wikipedia</a>
+          <i class="fa-solid fa-square-up-right"></i>
+        </p>
+
+        <div class="switchButton">
+          <button id="button1">01 OVERVIEW</button>
+          <button id="button2">02 INTERNAL STRUCTURE</button>
+          <button id="button3">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <p class="infoText">ROTATION TIME</p>
+        <h2>.6714 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">REVOLUTION TIME</p>
+        <h2>60152 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">RADIUS</p>
+        <h2>22122 KM</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">AVERAGE TEMP.</p>
+        <h2>-214°C</h2>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
+</html>

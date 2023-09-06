@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/index.html">
+        <div class="logo">The Planets</div>
+      </a>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/planets/mercury.html">MERCURY</a></li>
+          <li><a href="/planets/venus.html">VENUS</a></li>
+          <li><a href="/planets/earth.html">EARTH</a></li>
+          <li><a href="/planets/mars.html">MARS</a></li>
+          <li><a href="/planets/jupiter.html">JUPITER</a></li>
+          <li><a href="/planets/saturn.html">SATURN</a></li>
+          <li><a href="/planets/uranus.html">URANUS</a></li>
+          <li><a href="/planets/neptune.html">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="main-content">
+      <div class="image">
+        <img src="/assets/planet-saturn.svg" alt="Planet Earth" />
+      </div>
+      <div class="description">
+        <h1>SATURN</h1>
+
+        <p class="text active" id="text1">
+          Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.[26][27] It has only one-eighth the average density of Earth, but is over 95 times more massive
+        </p>
+        <p class="text" id="text2">
+          Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass. The temperature, pressure, and density inside Saturn all rise steadily toward the core, which causes hydrogen to be a metal in the deeper layers.
+        </p>
+        <p class="text" id="text3">The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The proportion of helium is significantly deficient compared to the abundance of this element in the Sun.The quantity of elements heavier than helium (metallicity) is not known precisely, but the proportions are assumed to match the primordial abundances from the formation of the Solar System.</p>
+        <p class="source">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Saturn">Wikipedia</a>
+          <i class="fa-solid fa-square-up-right"></i>
+        </p>
+
+        <div class="switchButton">
+          <button id="button1">01 OVERVIEW</button>
+          <button id="button2">02 INTERNAL STRUCTURE</button>
+          <button id="button3">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <p class="infoText">ROTATION TIME</p>
+        <h2>0.4441 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">REVOLUTION TIME</p>
+        <h2>10752.9 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">RADIUS</p>
+        <h2>58230 KM</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">AVERAGE TEMP.</p>
+        <h2>-140°C</h2>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
+</html>
